@@ -28,31 +28,27 @@ function App() {
         <h1
           style={{
             fontSize: "2.7rem",
-            color: "white",
             marginTop: "20px",
-            marginBottom: "20px",
-            fontWeight: "bold",
+            marginBottom: "10px",
           }}
         >
           Suraj Kumar
         </h1>
 
         <h2
-  style={{
-    color: "#38bdf8",
-    marginTop: "-10px",
-    marginBottom: "20px",
-    fontSize: "1.5rem",
-  }}
->
-  IIT Patna • CSE 2nd Year
-</h2>
+          style={{
+            color: "#38bdf8",
+            marginBottom: "20px",
+          }}
+        >
+          IIT Patna • CSE 2nd Year
+        </h2>
 
-        <p style={{ fontSize: "1.3rem", marginTop: "15px" }}>
+        <p style={{ fontSize: "1.2rem" }}>
           MERN Stack Developer • Competitive Programmer
         </p>
 
-        <p style={{ fontSize: "1.2rem" }}>
+        <p style={{ fontSize: "1.1rem" }}>
           LeetCode Rating: 2144+
         </p>
 
@@ -61,59 +57,52 @@ function App() {
             href="https://github.com/Surajiitp"
             target="_blank"
             rel="noreferrer"
-            style={{
-              color: "#38bdf8",
-              marginRight: "5px",
-              fontSize: "1.1rem",
-              justifyContent: "center",
-            }}
+            style={{ color: "#38bdf8" }}
           >
             GitHub
           </a>
+
           {" | "}
 
           <a
             href="https://www.linkedin.com/in/suraj-kumar-42b5a1355/"
             target="_blank"
             rel="noreferrer"
-            style={{
-              color: "#38bdf8",
-              fontSize: "1.1rem",
-            }}
+            style={{ color: "#38bdf8" }}
           >
             LinkedIn
           </a>
+
           {" | "}
 
           <a
-         href="https://leetcode.com/u/Surajiitp/"
-         target="_blank"
-         rel="noreferrer"
-         style={{
-         color: "#38bdf8",
-         marginRight: "20px",
-         fontSize: "1.1rem",
-  }}
->
-  LeetCode
-</a>
+            href="https://leetcode.com/u/Surajiitp/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "#38bdf8" }}
+          >
+            LeetCode
+          </a>
+        </div>
+
+        <div style={{ marginTop: "25px" }}>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              background: "#38bdf8",
+              color: "white",
+              padding: "10px 20px",
+              borderRadius: "8px",
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+          >
+            Download Resume
+          </a>
         </div>
       </div>
-
-      <div style={{ marginTop: "25px" }}>
-  <a
-    style={{
-      background: "#38bdf8",
-      color: "white",
-      padding: "10px 20px",
-      borderRadius: "8px",
-      textDecoration: "none",
-      fontWeight: "bold",
-    }}
-  >
-    Download Resume
-  </a>
-</div>
 
       {/* About */}
       <section
@@ -122,7 +111,7 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ color: "white" }}>About Me</h2>
+        <h2>About Me</h2>
 
         <p
           style={{
@@ -132,7 +121,7 @@ function App() {
           }}
         >
           I am a Computer Science student at IIT Patna passionate about
-          Full Stack Development, Data Structures & Algorithms and
+          Full Stack Development, Data Structures & Algorithms, and
           building scalable web applications.
         </p>
       </section>
@@ -144,10 +133,11 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ color: "white" }}>Skills</h2>
+        <h2>Skills</h2>
 
         <p>
-          C++ • JavaScript • React.js • Node.js • Express.js • MongoDB • Git • GitHub
+          C++ • JavaScript • React.js • Node.js • Express.js • MongoDB • Git •
+          GitHub
         </p>
       </section>
 
@@ -158,8 +148,9 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ color: "white" }}>Projects</h2>
+        <h2>Projects</h2>
 
+        {/* Zerodha Clone */}
         <div
           style={{
             background: "#1e293b",
@@ -168,26 +159,28 @@ function App() {
             marginTop: "20px",
           }}
         >
-          <h3 style={{ color: "white" }}>Zerodha Clone</h3>
+          <h3>Zerodha Clone</h3>
 
           <p>
             Full Stack MERN trading platform with authentication,
             holdings dashboard and MongoDB integration.
           </p>
+
           <a
-  href="https://github.com/Surajiitp/zerodha-clone"
-  target="_blank"
-  rel="noreferrer"
-  style={{
-    color: "#38bdf8",
-    textDecoration: "none",
-    fontWeight: "bold",
-  }}
->
-  View Project →
-</a>
+            href="https://github.com/Surajiitp/zerodha-clone"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              color: "#38bdf8",
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+          >
+            View Project →
+          </a>
         </div>
 
+        {/* Video Conferencing */}
         <div
           style={{
             background: "#1e293b",
@@ -196,27 +189,26 @@ function App() {
             marginTop: "20px",
           }}
         >
-          <h3 style={{ color: "white" }}>
-            Video Conferencing App
-          </h3>
+          <h3>Video Conferencing Platform</h3>
 
           <p>
-            Real-time video conferencing platform built using
-            React, WebRTC and Socket.IO with screen sharing and chat.
+            Real-time video conferencing platform built using React,
+            Node.js, Express.js, Socket.IO and WebRTC with video/audio
+            calling, chat functionality and meeting rooms.
           </p>
 
           <a
-  href="https://github.com/Surajjitp/Video-Conferencing-Platform"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    color: "#38bdf8",
-    textDecoration: "none",
-    fontWeight: "bold",
-  }}
->
-  View Project →
-</a>
+            href="https://github.com/Surajiitp/Video-Conferencing-Platform"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              color: "#38bdf8",
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+          >
+            View Project →
+          </a>
         </div>
       </section>
 
@@ -227,10 +219,10 @@ function App() {
           textAlign: "center",
         }}
       >
-        <h2 style={{ color: "white" }}>Contact</h2>
+        <h2>Contact</h2>
 
         <p>Email: kumar349118@gmail.com</p>
-        <p>📍 Location: Patna, Bihar, India</p>
+        <p>📍 Patna, Bihar, India</p>
       </section>
     </div>
   );
