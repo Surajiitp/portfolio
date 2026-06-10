@@ -102,7 +102,6 @@ function App() {
 
       <div style={{ marginTop: "25px" }}>
   <a
-    href="#"
     style={{
       background: "#38bdf8",
       color: "white",
@@ -207,14 +206,16 @@ function App() {
           </p>
 
           <a
-  href="#"
+  href="https://github.com/Surajjitp/Video-Conferencing-Platform"
+  target="_blank"
+  rel="noopener noreferrer"
   style={{
     color: "#38bdf8",
     textDecoration: "none",
     fontWeight: "bold",
   }}
 >
-  Coming Soon →
+  View Project →
 </a>
         </div>
       </section>
